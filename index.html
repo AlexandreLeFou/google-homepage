@@ -1,11 +1,22 @@
 <!DOCTYPE html>
+<html lang="en">
+
 <html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+  </head>
 <body>
 
 <style>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
-
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 search-wrapper {
     position: relative;
 
@@ -22,8 +33,14 @@ search-wrapper {
 
 .undersearch_back{
 	    color: black;
-	    background-color: #E0E0E0;
+	    background-color: #f5f5f0;
 	    font-size: 15px;
+	   
+		 border-radius: 5px;
+     font-family:: "Comic Sans MS";
+
+	    
+  
 
 }
 
@@ -32,19 +49,21 @@ search-wrapper {
 }
 
 
+
+
+
 .site_footer {
    position: fixed;
    left: 0;
    bottom: 0;
    width: 100%;
    padding-left: 27px;
-   background-color: #f2f2f2; 
+   background-color: #dddddb; 
    color: #222;
    line-height: 40px;
    min-width: 980px;
    text-align: left;
 }
-
 
 
 p
@@ -53,14 +72,36 @@ p
 }
 
 
+a:link {
+    color: #57574b;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: underline;
+}
+
+
+a:hover {
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:active {
+    background-color: transparent;
+    text-decoration: underline;
+}
+
 </style>
 
 
 <div align="right">
- <a class="active" href="www,google.com">Home</a>
+  &emsp;
   <a href="https://mail.google.com/mail/?tab=wm">Gmail</a>
-  <a href="https://www.google.gr/imghp?hl=en&tab=wi"><img></a>
-  <a href="https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/">Sign In</a>
+   &emsp;
+  <a href="https://www.google.gr/imghp?hl=en&tab=wi">Images</a>
+  &emsp;
+<a href="https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/">Sign In</a>
 </div>
 
 
@@ -71,10 +112,16 @@ p
 <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google.com" height:"100"</p>
   <div class="searchbar">
 <br>
+<div id="sb-search" class="sb-search">
+                <div class="search-wrapper">
+                    <input class="search-input" placeholder="" type="text" value="" name="search" id="search"/ size="40">
+                </div>
+    <!--
     <div id="sb-search" class="sb-search">
                 <div class="search-wrapper">
                     <input class="search-input" placeholder="" type="text" value="" name="search" id="search"/ size="40"> <img class="search-pic"src="https://www.google.com/textinputassistant/tia.png"/>
                 </div>
+    -->
     </div>
    </div>
 </div>
@@ -86,22 +133,16 @@ p
 
 
 <footer class="site_footer">
-<div id="footer1"><p> Greece </p></div>
-
-  <div id="footer2">
   <hr>
    <p>
 	<a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwiAnajQu8TaAhVRh6YKHfgcBYYQkdQCCAw&url=https%3A%2F%2Fwww.google.com%2Fintl%2Fen_gr%2Fads%2F%3Fsubid%3Dww-ww-et-g-awa-a-g_hpafoot1_1!o2%26utm_source%3Dgoogle.com%26utm_medium%3Dreferral%26utm_campaign%3Dgoogle_hpafooter%26fg%3D1&usg=AOvVaw2z4qMF70rmdRqMCvT_uyCF"> Advertising</a>
+  &emsp;
 	<a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwiAnajQu8TaAhVRh6YKHfgcBYYQktQCCA0&url=https%3A%2F%2Fwww.google.com%2Fservices%2F%3Fsubid%3Dww-ww-et-g-awa-a-g_hpbfoot1_1!o2%26utm_source%3Dgoogle.com%26utm_medium%3Dreferral%26utm_campaign%3Dgoogle_hpbfooter%26fg%3D1&usg=AOvVaw2SJ4zwRVXKyZr53qG9dm4K">Business</a>
-  	<a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwiAnajQu8TaAhVRh6YKHfgcBYYQkNQCCA4&url=https%3A%2F%2Fwww.google.com%2Fintl%2Fen_gr%2Fabout%2F%3Futm_source%3Dgoogle.com%26utm_medium%3Dreferral%26utm_campaign%3Dhp-footer%26fg%3D1&usg=AOvVaw004ewDEqWuGVv3_FKENwwO">About</a>
+  &emsp;
+  <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwiAnajQu8TaAhVRh6YKHfgcBYYQkNQCCA4&url=https%3A%2F%2Fwww.google.com%2Fintl%2Fen_gr%2Fabout%2F%3Futm_source%3Dgoogle.com%26utm_medium%3Dreferral%26utm_campaign%3Dhp-footer%26fg%3D1&usg=AOvVaw004ewDEqWuGVv3_FKENwwO">About</a>
    </p>
-  </div>
 </footer>
 
 
 </body>
 </html>
-
-
-
-
