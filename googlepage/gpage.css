@@ -1,0 +1,96 @@
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+search-wrapper {
+    position: relative;
+
+}
+
+.search-wrapper img {
+    position: absolute;
+    height: 780;
+}
+
+.sb-search {
+	height: 40px;
+}
+
+.buttonS {
+    background-color:  #0073e6;
+    border: none;
+    color: white;
+    padding: 7px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12.5px;
+    border-radius: 5%;
+    
+    
+}
+
+.undersearch_back{
+	    color: black;
+	    background-color: #f5f5f0;
+	    font-size: 15px;
+	   
+		 border-radius: 5px;
+     font-family:: "Comic Sans MS";
+
+	    
+  
+
+}
+
+.undersearch_back:hover {
+	background-color: #EFEFEF;
+}
+
+
+
+
+
+.site_footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   padding-left: 27px;
+   background-color: #dddddb; 
+   color: #222;
+   line-height: 40px;
+   min-width: 980px;
+   text-align: left;
+}
+
+
+p
+{
+    display:inline;
+}
+
+
+a:link {
+    color: #57574b;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: underline;
+}
+
+
+a:hover {
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:active {
+    background-color: transparent;
+    text-decoration: underline;
+}
