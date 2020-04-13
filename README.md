@@ -6,4 +6,5 @@ P.S. this is an exercise from The Odin Project, an open source online platform t
 Check this out: (http://www.theodinproject.com/courses/web-development-101/lessons/html-css)
 
 
-You can check out my project here: https://alexandrelefou.github.io/google-homepage/
+You can check out my project here: 
+https://alexandrosgazis.github.io/google-homepage/
